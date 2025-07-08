@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"/>
+  <style>
+    body {
+      background-color: #fafafa;
+      font-family: 'Roboto', sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .login-box {
+      background: #fff;
+      border: 1px solid #dbdbdb;
+      padding: 40px;
+      width: 350px;
+      text-align: center;
+    }
+    input {
+      width: 100%;
+      margin: 5px 0;
+      padding: 10px;
+      border: 1px solid #dbdbdb;
+      background: 
+      hsl(39, 100%, 81%);
+    }
+    button {
+      margin-top: 10px;
+      background-color: #3897f0;
+      color: white;
+      border: none;
+      width: 100%;
+      padding: 10px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .divider {
+      margin: 20px 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .divider::before,
+    .divider::after {
+      content: "";
+      flex: 1;
+      height: 1px;
+      background: #dbdbdb;
+    }
+    .divider span {
+      margin: 0 10px;
+      color: #db3838;
+      font-size: 12px;
+    }
+    .signup {
+      margin-top: 20px;
+      font-size: 14px;
+    }
+    .signup a {
+      text-decoration: none;
+      color: #00376b;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-box">
+    <img src="font image.png" alt="Instagram logo" style="width: 175px; margin-bottom: 20px;" />
+    
+    <form>
+      <input type="text" placeholder="Phone number, username, or email" required />
+      <input type="password" placeholder="Password" required />
+      <button type="submit">Log In</button>
+    </form>
+
+    <div class="divider"><span>OR</span></div>
+    <div style="font-size: 14px; color: #385185;">Log in with Facebook</div>
+    <div style="font-size: 12px; margin-top: 15px; color: #00376b;">Forgot password?</div>
+
+    <div class="signup">Don't have an account? <a href="#">Sign up</a></div>
+  </div>
+</body>
+</html>
+</body>
+</html>

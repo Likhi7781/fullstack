@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form action="submit.php">
+  <div style="background-color: #ffddb5;"><center>
+    <h1><i>Event Registration Form</i><h1>
+<label id="header">Full Name:</label><input type="text" placeholder="Enter Your Name">
+<label id="header">
+Phone Number:</label><input type="phone number" placeholder="+91  Enter Your Phone Number">
+<label id="header">
+Email:</label><input type="mail" placeholder="Enter Your Your Email">
+<label id="header">
+Gender:</label><input type="radio" id="male" name="gender" value="male" class="one">Male<input class="one"type="radio" id="female" name="gender" value="female">Female<input class="one"type="radio" id="others" name="gender"
+value="female">Others
+<label id="header">
+Date of Birth:</label><input type="datetime-local" placeholder="Enter Your Date of Birth">
+<label id="header">
+Address:</label><input type="text area" placeholder="Enter Your Address">
+<label id="header">
+Upload File:</label><input type="file" placeholder="upload file">
+<h1 class="big-font">Event Details</h1>
+<label class="big-font">Event category :</label>
+<select name="options" class="big-font">
+  <option value="" disabled selected hidden>options :</option>
+  <option value="session1">Session1</option>
+  <option value="session2">Session2</option>
+</select>
+<br>
+<label>
+Attending Mode:</label><input type="radio" id="1" name="Attending Mode" value="online" >online<input type="radio" id="2" name="Attending Mode" value="offline">offline<br>
+Select Domain:</label><input type="checkbox"name="Domain" value="AIML">AIML<input type="checkbox"name="Domain" value="DS">DS<input type="checkbox"name="Domain" value="IOT">IOT<br>
+<input type="submit" value="Submit"></center>
+
+</div>
+</form>  
+</body>
+</html>
